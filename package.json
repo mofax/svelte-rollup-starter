@@ -1,0 +1,17 @@
+{
+  "name": "svelte-rollup-starter",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Alloys Mila <mila.alloys@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "dependencies": {
+    "eslint": "^3.13.1",
+    "rollup": "^0.41.4",
+    "rollup-plugin-svelte": "^1.6.0",
+    "rollup-watch": "^3.2.2"
+  }
+}
